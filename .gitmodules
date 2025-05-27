@@ -3,5 +3,5 @@
 	url = git@github.com:madang6/FiGS-Semantic.git
 [submodule "gemsplat"]
 	path = gemsplat
-	url = https://github.com/StanfordMSL/gemsplat.git
+	url = git@github.com:StanfordMSL/gemsplat.git
 	branch = semantic_field_v1
