@@ -1,5 +1,7 @@
 .vscode/
 
+/vggt
+
 **/*.egg-info/
 **/__pycache__/
 **/c_generated_code/
