@@ -2,7 +2,7 @@
 Installation steps
 1) Update submodules
 ```
-git submodule update --recursive --init
+git clone --branch FiGS-Semantic-Examples --recurse-submodules https://github.com/madang6/FiGS-Semantic-Examples.git
 ```
 2) Install acados
 ```
