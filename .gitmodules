@@ -1,6 +1,7 @@
 [submodule "FiGS-Semantic"]
 	path = FiGS-Semantic
 	url = git@github.com:madang6/FiGS-Semantic.git
+	branch = feature/glider
 [submodule "gemsplat"]
 	path = gemsplat
 	url = git@github.com:StanfordMSL/gemsplat.git
