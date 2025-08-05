@@ -17,8 +17,11 @@ dependencies:
   - ipykernel
   - ipympl
   - matplotlib
+  - tqdm
+  - tabulate
   - cython
   - conda-forge::colmap
+  - conda-forge::captum
   - fastai::opencv-python-headless=4.10.0.84
   - pytorch=2.1.2
   - torchvision=0.16.2
