@@ -1,6 +1,6 @@
 # FiGS-Semantic-Examples
 Installation steps
-1) Update submodules
+1) Clone the Repo & Update submodules
 ```
 git submodule update --recursive --init
 ```
