@@ -6,7 +6,7 @@ git submodule update --recursive --init
 ```
 2) Install acados
 ```
-# Navigate to acados folder
+# Navigate to acados folder (acados root)
 cd <repository-path>/FiGS-Semantic-Examples/FiGS-Semantic/acados/
 
 # Compile
