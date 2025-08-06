@@ -1,4 +1,4 @@
-# FiGS-Examples
+# FiGS-Semantic-Examples
 Installation steps
 1) Update submodules
 ```
