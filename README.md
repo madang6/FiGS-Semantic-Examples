@@ -47,7 +47,39 @@ pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 --extra-index-url https
 conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit -y
 pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
 
-# To remove the environment
+# Nerfstudio
+pip install nerfstudio==1.1.4
+pip uninstall gsplat -y
+pip install git+https://github.com/nerfstudio-project/gsplat.git@c7b0a383657307a13dff56cb2f832e3ab7f029fd
+
+# Ensure you're in the correct branch of the gsplat repo
+cd gemsplat
+git checkout semantic_field_v1
+git pull
+pip install -v -e .
+
+# Albumentations
+conda install conda-forge::albumentations==2.0.5 --freeze-installed
+
+# Downgrade tyro
+pip install tyro==0.6.6
+
+# Attempt nerfstudio command line interface
+ns-install-cli 
+
+# You'll need pytest
+pip install pytest
+
+# Don't do this during install, but if you needed to remove the environment
+# and start again
 conda deactivate
 conda env remove -n figs-env
 ```
+
+4) Run some stuff!
+
+```
+cd notebooks
+pytest glider_verify_examples.py
+```
+
