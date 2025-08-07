@@ -9,3 +9,6 @@
 **/acados_sim.json
 **/rollout_data/
 **/test_data/
+
+**/condaenv.wstfqvf6.requirements.txt
+**/Miniconda3-latest-Linux-x86_64.sh

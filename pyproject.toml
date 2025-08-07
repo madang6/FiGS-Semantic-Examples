@@ -14,17 +14,11 @@ dependencies = [
     "numpy",
     "scipy",
     "qpsolvers",
-    "albumentations",
     "imageio[ffmpeg]",
-    "ninja",
-    "gdown",
     "ipykernel",
     "ipympl",
     "matplotlib",
     "cython",
-    "torch",
-    "torchvision",
-    "nerfstudio",
 ]
 
 [tool.setuptools.packages.find]
